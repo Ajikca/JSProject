@@ -1,2 +1,0 @@
-# JSProject
-JavaScript Project
