@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  text-align: center;
+  background-color: #a8dadc;
+  font-family:'Oswald', sans-serif;
+}
+h1{
+  margin: 1px;
+  color: #1d3557 ;
+  text-decoration: underline;
+}
+div {
+  width: 150px;
+  height: 150px;
+  background-color: #f1faee;
+  border-radius: 5%;
+}
+section{
+  display: grid;
+  grid-template-columns:repeat(4, 0fr);
+  gap: 1em;
+  justify-content: center;
+  background-color: #457b9d ;
+  padding: 1em;
+  margin: auto;
+  width: 95%;
+  border-radius: 3%;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple ; 
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.pink{
+  background-color: pink;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.black {
+  background-color: black;
+}
+.brown{
+  background-color: brown;
+}
+.lime{
+  background-color: lime;
+}
+.cyan{
+  background-color: rgb(24, 165, 165);
+}
+
+.grey {
+background-color: grey;
+}
+
+.bloodorange{
+  background-color: orangered;
+}
+
+.beige{
+  background-color: beige;
+}
+
+.coral{
+  background-color: lightcoral;
+}
+
+.remove { 
+  background-color: none;
+}
